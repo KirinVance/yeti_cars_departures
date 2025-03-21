@@ -1,0 +1,51 @@
+# Ignore system cache and logs
+/cache/*
+!/cache/.htaccess
+/cache/logs/*
+/cache/logs/*.log
+
+# Ignore temporary & session files
+/storage/*
+!/storage/.htaccess
+/storage/logs/*
+/storage/logs/*.log
+/storage/cache/*
+/storage/cache/*
+
+# Ignore vendor & dependencies (use composer instead)
+/vendor/*
+/node_modules/*
+/public_html/libraries/*
+/public_html/layouts/basic/assets/*
+
+# Ignore compiled assets
+/public_html/layouts/resources/*
+/public_html/libraries/@fortawesome/fontawesome-free/webfonts/*
+
+# Ignore backups & exports
+/backups/*
+/export/*
+/import/*
+/tmp/*
+
+# Ignore environment-specific configuration files
+/config/Debug.php
+/config/SecretData.php
+/config/ConfigTemplates.php
+/config/Modules.php
+/config/Developer.php
+/config/Security.php
+
+# Ignore database dumps
+/*.sql
+/*.sql.gz
+/*.tar
+/*.zip
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp

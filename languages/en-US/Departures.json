@@ -1,0 +1,9 @@
+{
+	"php": {
+		"Departures": "Wyjazdy",
+		"SINGLE_Departures": "Wyjazdy",
+		"LBL_CUSTOM_INFORMATION": "Custom Information",
+		"LBL_BASIC_INFORMATION": "Basic Information",
+		"Liczba przejechanych kilometrów": "Liczba przejechanych kilometrów"
+	}
+}

@@ -1,0 +1,5 @@
+.git
+*.bak
+composer.lock
+vendor
+config.inc.php
